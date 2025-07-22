@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === 'production' || process.env.GITHUB_ACTIONS;
+
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/toastmasters-tutorial' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/toastmasters-tutorial/' : '',
+  basePath: isProd ? '/toastmasters-tutorial' : '',
+  assetPrefix: isProd ? '/toastmasters-tutorial/' : '',
   trailingSlash: true,
   images: {
     unoptimized: true

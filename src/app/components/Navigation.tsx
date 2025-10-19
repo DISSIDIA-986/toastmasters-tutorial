@@ -7,12 +7,12 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigationItems = [
-    { href: '/', label: '首页' },
-    { href: '/about', label: '关于我们' },
-    { href: '/meeting', label: '会议流程' },
+    { href: '/', label: 'Home' },
+    { href: '/about', label: 'About Us' },
+    { href: '/meeting', label: 'Meeting Process' },
     { href: '/pathways', label: 'Pathways' },
-    { href: '/contribute', label: '贡献机会' },
-    { href: '/faq', label: '常见问题' },
+    { href: '/contribute', label: 'Contribute' },
+    { href: '/faq', label: 'FAQ' },
   ];
 
   return (
@@ -20,7 +20,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="text-xl font-bold">
-            Toastmasters 中文指南
+            Toastmasters Tutorial
           </Link>
           
           {/* Desktop Menu */}

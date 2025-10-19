@@ -1,120 +1,120 @@
 export const contributionWays = [
   {
-    title: "会议前后的协助",
-    description: "帮忙布置和收拾会议室",
-    actions: ["提前到达布置会议室", "协助准备设备和材料", "会议结束后帮助清理", "协调会议用品管理"],
+    title: "Meeting Setup and Cleanup",
+    description: "Help create a welcoming environment by setting up and cleaning up the meeting space",
+    actions: ["Arrive early to set up the meeting room and equipment", "Assist with preparing materials and technology", "Help clean up and organize after the meeting", "Coordinate meeting supplies and inventory management"],
     icon: "🛠️",
-    impact: "营造温馨的会议环境"
+    impact: "Create a warm, professional meeting environment"
   },
   {
-    title: "承担会议角色",
-    description: "积极报名扮演各种会议角色",
-    actions: ["主动报名会议角色", "认真准备角色职责", "提供高质量的服务", "帮助新会员学习角色"],
+    title: "Take on Meeting Roles",
+    description: "Volunteer for various meeting roles to develop skills and help drive meeting quality",
+    actions: ["Volunteer for meeting roles (Toastmaster, Evaluator, Timer, etc.)", "Carefully prepare and practice your role responsibilities", "Provide high-quality service during the meeting", "Help new members learn and succeed in their roles"],
     icon: "🎭",
-    impact: "提升会议质量和个人技能"
+    impact: "Improve meeting quality while developing your own skills"
   },
   {
-    title: "邀请新会员",
-    description: "扩大俱乐部影响力",
-    actions: ["向朋友介绍 Toastmasters", "邀请客人参加会议", "协助新会员入会", "成为新会员的导师"],
+    title: "Invite New Members",
+    description: "Help grow our community by inviting others to join Toastmasters",
+    actions: ["Share Toastmasters' benefits with friends and colleagues", "Invite guests to attend club meetings", "Help new members feel welcome during their first visit", "Serve as a mentor to guide new members through their journey"],
     icon: "🤝",
-    impact: "壮大俱乐部团队"
+    impact: "Expand the club and build meaningful friendships"
   },
   {
-    title: "积极参与社交活动",
-    description: "增强俱乐部凝聚力",
-    actions: ["参加俱乐部聚餐活动", "组织团建活动", "参与节日庆祝", "建立会员友谊"],
+    title: "Actively Participate in Social Activities",
+    description: "Strengthen club culture through social connections and team building",
+    actions: ["Attend and participate in club social events and celebrations", "Help organize team-building activities and gatherings", "Contribute to holiday celebrations and special occasions", "Build genuine friendships with fellow members"],
     icon: "🎉",
-    impact: "增强团队凝聚力"
+    impact: "Build a strong, supportive community culture"
   }
 ];
 
 export const executiveRoles = [
   {
-    title: "主席 (President)",
-    description: "俱乐部最高领导，负责俱乐部整体运营",
-    responsibilities: ["制定俱乐部发展战略", "主持执委会议", "代表俱乐部对外交流", "监督俱乐部整体运营"],
-    benefits: ["战略思维能力", "整体管理能力", "公关协调能力", "领导决策能力"],
-    timeCommitment: "每周 3-5 小时",
+    title: "President",
+    description: "The visionary leader of the club, responsible for strategic direction and overall operations",
+    responsibilities: ["Develop and execute club development strategy", "Chair executive team meetings and drive initiatives", "Represent the club externally and maintain relationships", "Ensure the club meets its mission and goals"],
+    benefits: ["Strategic leadership skills", "Executive decision-making", "Public relations and diplomacy", "Organization management", "Vision-setting ability"],
+    timeCommitment: "3-5 hours per week",
     icon: "👑"
   },
   {
-    title: "教育副主席 (VPE)",
-    description: "负责会员教育和 Pathways 进展",
-    responsibilities: ["安排会议演讲者", "跟踪会员 Pathways 进度", "提供教育资源", "组织教育活动"],
-    benefits: ["教育培训能力", "项目管理能力", "人员发展能力", "组织协调能力"],
-    timeCommitment: "每周 2-4 小时",
+    title: "Vice President Education (VPE)",
+    description: "Champion of member learning and development, overseeing the educational experience",
+    responsibilities: ["Arrange and schedule meeting speakers and roles", "Track and support member Pathways progress", "Provide educational resources and guidance", "Organize workshops and educational activities"],
+    benefits: ["Education and training expertise", "Project management skills", "Human resource development", "Coaching and mentoring ability", "Organizational leadership"],
+    timeCommitment: "2-4 hours per week",
     icon: "📚"
   },
   {
-    title: "会员副主席 (VPM)",
-    description: "负责招募和保留会员",
-    responsibilities: ["制定招募计划", "跟进潜在会员", "关怀现有会员", "分析会员流失原因"],
-    benefits: ["营销推广能力", "人际关系能力", "数据分析能力", "客户服务意识"],
-    timeCommitment: "每周 2-3 小时",
+    title: "Vice President Membership (VPM)",
+    description: "Growth and retention specialist, focused on welcoming and supporting members",
+    responsibilities: ["Develop and implement recruitment strategies", "Follow up with potential members and visitors", "Support current member satisfaction and retention", "Analyze membership trends and improve engagement"],
+    benefits: ["Marketing and promotion skills", "Relationship building expertise", "Data analysis and insights", "Customer service excellence", "Strategic thinking"],
+    timeCommitment: "2-3 hours per week",
     icon: "🎯"
   },
   {
-    title: "公关副主席 (VPPR)",
-    description: "负责俱乐部对外宣传",
-    responsibilities: ["管理社交媒体", "撰写新闻稿", "组织公关活动", "维护俱乐部形象"],
-    benefits: ["市场营销能力", "内容创作能力", "媒体关系能力", "品牌管理能力"],
-    timeCommitment: "每周 2-3 小时", 
+    title: "Vice President Public Relations (VPPR)",
+    description: "Brand ambassador and communicator, managing club visibility and reputation",
+    responsibilities: ["Manage social media and online presence", "Create and distribute press releases and announcements", "Organize public relations activities and events", "Maintain and enhance club brand image"],
+    benefits: ["Marketing and communications skills", "Content creation and writing", "Media relations expertise", "Brand management", "Public speaking ability"],
+    timeCommitment: "2-3 hours per week", 
     icon: "📢"
   },
   {
-    title: "秘书 (Secretary)",
-    description: "记录会议纪要和俱乐部文档",
-    responsibilities: ["记录会议纪要", "维护会员档案", "处理官方通信", "管理俱乐部文档"],
-    benefits: ["文档管理能力", "细节处理能力", "沟通协调能力", "信息整理能力"],
-    timeCommitment: "每周 1-2 小时",
+    title: "Secretary",
+    description: "Organized keeper of records and official communications for the club",
+    responsibilities: ["Record accurate meeting minutes and decisions", "Maintain member files and organizational records", "Handle official club communications", "Manage and organize club documents"],
+    benefits: ["Organization and detail management", "Communication coordination", "Information management", "Administrative expertise", "Attention to detail"],
+    timeCommitment: "1-2 hours per week",
     icon: "📝"
   },
   {
-    title: "财务主管 (Treasurer)",
-    description: "管理俱乐部财务",
-    responsibilities: ["管理俱乐部资金", "制作财务报告", "处理会费收缴", "预算规划"],
-    benefits: ["财务管理能力", "预算控制能力", "数据分析能力", "责任心培养"],
-    timeCommitment: "每周 1-2 小时",
+    title: "Treasurer",
+    description: "Financial steward, ensuring fiscal responsibility and transparency",
+    responsibilities: ["Manage club funds and financial accounts", "Prepare financial reports and statements", "Collect membership fees and handle payments", "Plan and manage club budgets"],
+    benefits: ["Financial management skills", "Budget planning and control", "Data analysis", "Fiscal responsibility", "Financial planning expertise"],
+    timeCommitment: "1-2 hours per week",
     icon: "💰"
   },
   {
-    title: "纠察长 (SAA)",
-    description: "负责会议场地和设备",
-    responsibilities: ["管理会议设备", "维护会议秩序", "协助会议流程", "处理突发情况"],
-    benefits: ["服务意识", "应急处理能力", "细心负责", "团队支持能力"],
-    timeCommitment: "每周 1-2 小时",
+    title: "Sergeant at Arms (SAA)",
+    description: "Meeting facilitator and technical support, ensuring smooth meeting operations",
+    responsibilities: ["Manage and maintain meeting equipment and technology", "Maintain meeting order and logistics", "Assist with overall meeting process flow", "Handle emergencies and unexpected situations"],
+    benefits: ["Technical skills", "Problem-solving ability", "Service orientation", "Emergency response skills", "Team coordination"],
+    timeCommitment: "1-2 hours per week",
     icon: "🔧"
   },
   {
-    title: "上届主席 (IPP)",
-    description: "为现任主席提供建议",
-    responsibilities: ["传承经验", "提供咨询建议", "协助重大决策", "指导新执委"],
-    benefits: ["导师能力", "顾问技能", "传承意识", "支持他人成长"],
-    timeCommitment: "每月 2-3 小时",
+    title: "Immediate Past President (IPP)",
+    description: "Wise guide and mentor, providing continuity and institutional knowledge",
+    responsibilities: ["Share past experiences and lessons learned", "Provide strategic consultation to current leadership", "Assist with major club decisions and transitions", "Guide and mentor new executive members"],
+    benefits: ["Mentoring and coaching skills", "Advisory leadership", "Legacy and continuity building", "Knowledge transfer", "Leadership wisdom"],
+    timeCommitment: "2-3 hours per month",
     icon: "🎓"
   }
 ];
 
 export const whyJoinExec = [
   {
-    title: "提升领导和管理能力",
-    description: "在实际工作中锻炼和提升各种管理技能",
+    title: "Enhance Leadership and Management Skills",
+    description: "Practice and develop essential leadership abilities in real-world situations through hands-on experience",
     icon: "📈"
   },
   {
-    title: "深入了解俱乐部运营",
-    description: "从内部角度理解组织运作和管理流程",
+    title: "Gain Deep Understanding of Club Operations",
+    description: "Understand organizational management and processes from an insider's perspective, building valuable operational knowledge",
     icon: "🔍"
   },
   {
-    title: "扩大影响力，为俱乐部发展做出贡献",
-    description: "直接参与俱乐部发展决策，推动积极改变",
+    title: "Make a Meaningful Impact",
+    description: "Directly shape club direction and drive positive change, seeing the results of your leadership and contributions",
     icon: "🌟"
   },
   {
-    title: "获得 Toastmasters 国际的认可和奖项",
-    description: "有机会获得官方认证和各种荣誉奖项",
+    title: "Earn International Recognition",
+    description: "Receive official Toastmasters certifications and awards acknowledging your leadership contribution and service",
     icon: "🏆"
   }
 ];

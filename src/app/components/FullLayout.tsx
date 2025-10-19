@@ -8,8 +8,8 @@ interface FullLayoutProps {
 }
 
 /**
- * 包含 Header, Main Content, Footer 的基本页面布局
- * 完整的页面布局组件，包含导航栏、主要内容区域和页脚
+ * Basic page layout with Header, Main Content, Footer
+ * Complete page layout component containing navigation bar, main content area and footer
  */
 export default function FullLayout({ children, className = '' }: FullLayoutProps) {
   return (

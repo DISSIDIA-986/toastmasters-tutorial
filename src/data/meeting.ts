@@ -1,66 +1,73 @@
 export const meetingSteps = [
-  { id: 1, title: "开场", description: "总主持人致欢迎词，介绍会议议程", icon: "🎯" },
-  { id: 2, title: "备稿演讲", description: "会员根据 Pathways 项目进行准备充分的演讲", icon: "📝" },
-  { id: 3, title: "即兴演讲", description: "即兴演讲主持人提出话题，会员进行即兴回答", icon: "💡" },
-  { id: 4, title: "点评环节", description: "点评官对演讲进行建设性反馈", icon: "💬" },
-  { id: 5, title: "总结", description: "总点评官总结会议，宣布获奖者", icon: "🏆" }
+  { id: 1, title: "Opening & Introductions", description: "Meet and greet, round table introductions, and introduction of meeting support roles (Timer, Grammarian, Ah-Counter)", icon: "🎯" },
+  { id: 2, title: "Prepared Speeches", description: "Typically 3 speakers deliver 5-7 minute speeches based on their Pathways projects, with evaluators providing feedback after each speech", icon: "📝" },
+  { id: 3, title: "Table Topics", description: "Impromptu speaking practice where the Table Topics Master poses interesting questions and members respond on the spot (1-2 minutes each)", icon: "💡" },
+  { id: 4, title: "Evaluations & Reports", description: "Table Topics Evaluator provides feedback, General Evaluator summarizes the meeting, and support roles (Timer, Grammarian, Ah-Counter) share their observations", icon: "💬" },
+  { id: 5, title: "Closing", description: "Guest comments, announcements, recognition of achievements, and meeting adjournment", icon: "🏆" }
 ];
 
 export const meetingRoles = [
   {
-    title: "总主持人 (Toastmaster of the Day)",
-    description: "会议的灵魂人物，负责串联整场会议。提升组织和控场能力。",
-    responsibilities: ["主持整场会议", "介绍各个环节", "掌控会议节奏", "营造积极氛围"],
-    benefits: ["提升领导力", "锻炼主持能力", "增强自信心"],
+    title: "Toastmaster of the Meeting",
+    description: "The meeting's host and conductor. Welcomes attendees, introduces speakers and their projects, maintains the meeting schedule, and ensures smooth transitions between segments.",
+    responsibilities: ["Welcome attendees and set the meeting tone", "Introduce each speaker and their Pathways project", "Keep the meeting flowing on schedule", "Fill time gaps and maintain positive energy"],
+    benefits: ["Leadership skills", "Hosting and presentation abilities", "Confidence building", "Event management"],
     icon: "👑"
   },
   {
-    title: "备稿演讲者 (Prepared Speaker)",
-    description: "按照 Pathways 学习路径进行演讲。",
-    responsibilities: ["准备5-7分钟演讲", "选择合适主题", "运用演讲技巧", "与观众互动"],
-    benefits: ["提升演讲技能", "克服恐惧", "表达能力"],
+    title: "Prepared Speaker",
+    description: "Delivers a 5-7 minute speech based on your Pathways project, applying specific speaking techniques and seeking feedback from evaluators.",
+    responsibilities: ["Prepare and practice your speech thoroughly", "Deliver your presentation with confidence", "Apply techniques from your Pathways project", "Accept feedback graciously and implement suggestions"],
+    benefits: ["Overcome fear of public speaking", "Develop presentation skills", "Build confidence", "Apply leadership communication techniques"],
     icon: "🎤"
   },
   {
-    title: "即兴演讲主持人 (Table Topics Master)",
-    description: "提出问题，锻炼会员即兴表达能力。",
-    responsibilities: ["设计有趣话题", "邀请会员参与", "掌控时间", "鼓励参与者"],
-    benefits: ["创意思维", "主持技巧", "应变能力"],
+    title: "Table Topics Master",
+    description: "Leads the impromptu speaking session by asking thought-provoking questions that members answer on the spot, creating a fun and supportive atmosphere.",
+    responsibilities: ["Prepare interesting and thought-provoking topics", "Invite participants to speak spontaneously", "Keep responses within 1-2 minute time limits", "Create an encouraging and positive atmosphere"],
+    benefits: ["Creative thinking", "Quick thinking and adaptability", "Leadership in group dynamics", "Facilitation skills"],
     icon: "💭"
   },
   {
-    title: "计时官 (Timer)",
-    description: "掌握演讲和点评时间。提升时间观念和专注力。",
-    responsibilities: ["记录所有演讲时间", "显示时间信号", "报告超时情况", "确保会议按时进行"],
-    benefits: ["时间管理", "注意力集中", "责任感"],
-    icon: "⏱️"
+    title: "Evaluator (Speech Evaluator)",
+    description: "Provides constructive feedback on a speaker's presentation, highlighting strengths and offering specific suggestions for improvement in a 2-3 minute evaluation.",
+    responsibilities: ["Listen carefully to the assigned speech", "Note specific strengths and areas for improvement", "Deliver a structured 2-3 minute evaluation", "Use the Commend-Recommend-Commend structure"],
+    benefits: ["Critical thinking", "Communication skills", "Constructive feedback delivery", "Mentoring ability"],
+    icon: "📊"
   },
   {
-    title: "哼哈官 (Ah-Counter)",
-    description: "记录口头禅。",
-    responsibilities: ["统计填充词使用", "记录不必要的声音", "提供改进建议", "帮助会员意识到语言习惯"],
-    benefits: ["语言敏感性", "观察能力", "沟通技巧"],
-    icon: "👂"
+    title: "Table Topics Evaluator",
+    description: "Provides feedback on impromptu speakers' Table Topics responses, recognizing their quick thinking and areas for improvement.",
+    responsibilities: ["Observe Table Topics responses carefully", "Provide feedback on impromptu speaking", "Recognize strong quick-thinking moments", "Offer constructive suggestions"],
+    benefits: ["Observation skills", "Feedback expertise", "Recognition of strengths", "Mentoring abilities"],
+    icon: "�"
   },
   {
-    title: "语法官 (Grammarian)",
-    description: "记录好的用词和语法错误。",
-    responsibilities: ["监听语言使用", "记录优美表达", "指出语法错误", "分享词汇学习"],
-    benefits: ["语言能力", "文字功底", "表达技巧"],
-    icon: "📚"
-  },
-  {
-    title: "总点评官 (General Evaluator)",
-    description: "对整场会议进行点评。",
-    responsibilities: ["评估会议整体质量", "协调各点评官", "提供建设性反馈", "总结会议亮点"],
-    benefits: ["批判性思维", "综合能力", "领导技能"],
+    title: "General Evaluator",
+    description: "Oversees the evaluation team and provides feedback on the entire meeting, including meeting flow, logistics, and overall effectiveness.",
+    responsibilities: ["Evaluate the evaluators' performances", "Comment on meeting flow and organization", "Note what went well and improvement areas", "Lead and coordinate the evaluation team"],
+    benefits: ["Strategic thinking", "Leadership and team coordination", "Comprehensive analysis skills", "Big-picture perspective"],
     icon: "🎯"
   },
   {
-    title: "会议秘书 (Secretary)",
-    description: "记录会议信息。",
-    responsibilities: ["记录出席情况", "统计会议数据", "整理会议纪要", "协助会议流程"],
-    benefits: ["组织能力", "文档技能", "细致认真"],
-    icon: "📋"
+    title: "Timer",
+    description: "Tracks time for each speaker and role, providing visual signals (green, yellow, red) to help speakers stay within time limits and manage their presentations effectively.",
+    responsibilities: ["Time all speakers and reports accurately", "Display timing signals at appropriate intervals", "Provide a comprehensive timing report", "Help speakers develop time management skills"],
+    benefits: ["Time management mastery", "Attention to detail", "Responsibility and accountability", "Precision in execution"],
+    icon: "⏱️"
+  },
+  {
+    title: "Ah-Counter",
+    description: "Counts filler words and sounds (um, ah, like, you know) and unnecessary repetitions, helping speakers become aware of and eliminate speech habits.",
+    responsibilities: ["Track filler words and unnecessary sounds", "Note specific speakers and frequency", "Provide a detailed report with examples", "Help speakers develop cleaner speech patterns"],
+    benefits: ["Linguistic awareness", "Observation skills", "Speech pattern recognition", "Supportive coaching"],
+    icon: "👂"
+  },
+  {
+    title: "Grammarian",
+    description: "Introduces a 'Word of the Day,' tracks its usage throughout the meeting, and notes excellent language use or grammatical improvements.",
+    responsibilities: ["Select and introduce an interesting Word of the Day", "Track and note usage of the word", "Recognize excellent vocabulary and phrasing", "Comment on grammar and language improvements"],
+    benefits: ["Language mastery", "Vocabulary expansion", "Attention to detail", "Teaching and mentoring"],
+    icon: "�"
   }
 ];

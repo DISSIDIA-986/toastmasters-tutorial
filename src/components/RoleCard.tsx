@@ -31,7 +31,7 @@ export default function RoleCard({
       <p className="text-gray-600 mb-4 text-center">{description}</p>
       
       <div className="mb-4">
-        <h4 className="font-semibold text-blue-700 mb-2">主要职责：</h4>
+        <h4 className="font-semibold text-blue-700 mb-2">Main Responsibilities:</h4>
         <ul className="text-sm text-gray-600 space-y-1">
           {responsibilities.map((resp, idx) => (
             <li key={idx} className="flex items-start">
@@ -43,7 +43,7 @@ export default function RoleCard({
       </div>
       
       <div>
-        <h4 className="font-semibold text-green-700 mb-2">能力提升：</h4>
+        <h4 className="font-semibold text-green-700 mb-2">Skills Developed:</h4>
         <div className="flex flex-wrap gap-2">
           {benefits.map((benefit, idx) => (
             <span key={idx} className="bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full">

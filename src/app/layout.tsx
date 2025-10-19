@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Toastmasters 中文指南",
-  description: "为中文会员提供全面的 Toastmasters 国际组织介绍，帮助您更好地了解会议流程、角色职责和学习机会",
+  title: "Toastmasters Tutorial",
+  description: "A comprehensive guide to Toastmasters International, helping you better understand meeting processes, roles, and learning opportunities",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

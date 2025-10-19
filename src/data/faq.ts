@@ -1,42 +1,42 @@
 export const faqItems = [
   {
-    question: "Toastmasters 适合我吗？",
-    answer: "Toastmasters 适合所有希望提升沟通和领导技能的人。无论您是：\n\n• 想要提高英语口语表达能力的人\n• 希望克服演讲恐惧的人\n• 渴望发展领导力的人\n• 想要扩大社交圈的人\n• 追求个人成长的人\n\nToastmasters 都为您提供了一个支持性强、友好包容的学习环境。"
+    question: "Is Toastmasters right for me?",
+    answer: "Toastmasters is perfect for anyone who wants to improve their communication and leadership skills. Whether you are:\n\n• Someone who wants to improve English speaking and expression ability\n• Someone who wants to overcome fear of public speaking\n• Someone who desires to develop leadership skills\n• Someone who wants to expand your social circle\n• Someone who pursues personal growth\n\nToastmasters provides a supportive, friendly, and inclusive learning environment for you."
   },
   {
-    question: "我英语不好怎么办？",
-    answer: "完全不用担心！Toastmasters 俱乐部专门为英语学习者提供支持性环境：\n\n• 会员都很友好，会鼓励和支持您的努力\n• 没有人会嘲笑您的错误，大家都在学习中\n• 通过实践，您的英语水平会快速提升\n• 即兴演讲环节帮助您练习日常对话\n• 点评过程帮助您学习正确的表达方式\n\n记住：每个人都是从初学者开始的！"
+    question: "What if my English is not good?",
+    answer: "Don't worry at all! Toastmasters clubs provide a supportive environment specifically for English learners:\n\n• Members are friendly and will encourage and support your efforts\n• No one will laugh at your mistakes - everyone is learning\n• Through practice, your English level will improve rapidly\n• Table Topics sessions help you practice everyday conversations\n• Feedback sessions help you learn correct expressions\n\nRemember: Everyone starts as a beginner!"
   },
   {
-    question: "Pathways 学习路径如何选择？",
-    answer: "选择 Pathways 学习路径时，可以考虑以下因素：\n\n• 个人兴趣和目标（想要发展演讲技能还是领导力？）\n• 职业发展需要（管理岗位可选择领导力相关路径）\n• 当前技能水平（初学者建议选择 Presentation Mastery）\n• 时间安排（不同路径的项目数量和复杂度不同）\n\n建议：\n• 新会员可从 Presentation Mastery 或 Leadership Development 开始\n• 可以向经验丰富的会员咨询建议\n• 路径可以更换，不必担心选择错误"
+    question: "How do I choose a Pathways learning track?",
+    answer: "When choosing a Pathways learning track, consider the following factors:\n\n• Personal interests and goals (Do you want to develop speaking skills or leadership?)\n• Career development needs (Leadership-related paths for management positions)\n• Current skill level (Beginners are recommended to choose Presentation Mastery)\n• Time availability (Different paths have different numbers and complexity of projects)\n\nRecommendations:\n• New members can start with Presentation Mastery or Leadership Development\n• You can ask for advice from experienced members or the Vice President Education\n• Paths can be changed anytime, so don't worry about making the wrong choice\n• All 11 Pathways are available in Base Camp - explore them to find your best fit\n• Start with the Ice Breaker project to learn the platform and build confidence"
   },
   {
-    question: "如何报名承担会议角色？",
-    answer: "报名承担会议角色的步骤：\n\n1. 关注会议安排公告（通常提前2-3周发出）\n2. 联系教育副主席（VPE）或总主持人\n3. 选择适合自己的角色和时间\n4. 提前准备角色相关材料\n5. 按时参加会议并完成角色职责\n\n建议：\n• 新会员先从简单角色开始（如计时官、会议秘书）\n• 提前了解角色职责和要求\n• 积极主动，不要等待被邀请"
+    question: "How do I sign up to take on a meeting role?",
+    answer: "Steps to sign up for a meeting role:\n\n1. Watch for meeting assignment announcements (usually sent 2-3 weeks in advance)\n2. Review the club meeting agenda on the website\n3. Contact the Vice President Education (VPE) or General Evaluator\n4. Choose a role and time that works for you\n5. Prepare materials related to your role in advance (use the downloadable forms and guides)\n6. Attend the meeting on time and fulfill your role responsibilities\n\nTips:\n• New members should start with simple roles like Timer, Ah-Counter, or Grammarian (the TAG Team)\n• Read the role description and watch experienced members first\n• Prepare and practice your role - don't wing it!\n• Download evaluation forms if applicable (available on Base Camp or from the club)\n• Don't wait to be asked - volunteer proactively to take on roles\n• Each role helps you develop specific communication skills"
   },
   {
-    question: "会员费用是多少？怎么缴纳？",
-    answer: "Toastmasters 会员费用包括：\n\n• 俱乐部会费：每半年约 100 加币（卡尔加利地区）\n• 新会员材料费：约 30 加币（一次性费用）\n\n缴费方式：\n• 直接向俱乐部财务主管缴纳\n• 可以选择按半年或按年缴费\n• 支持现金、支票或电子转账等方式\n\n注意：\n• 具体费用可能因俱乐部而异\n• 建议加入前向具体俱乐部确认最新费用标准\n• 部分俱乐部可能提供学生或其他优惠价格"
+    question: "How much are membership fees and how do I pay?",
+    answer: "Toastmasters membership fees include:\n\n• Club dues: approximately $100 per six months (Calgary area)\n• New member materials fee: approximately $30 (one-time fee)\n\nPayment methods:\n• Pay directly to the club's Treasurer\n• You can choose to pay semi-annually or annually\n• Cash, check, or electronic transfer are accepted\n\nNote:\n• Specific fees may vary by club\n• We recommend confirming the latest fee structure with your specific club before joining\n• Some clubs may offer student or other discount prices"
   },
   {
-    question: "我可以随时加入俱乐部吗？",
-    answer: "是的！Toastmasters 俱乐部全年都欢迎新会员加入：\n\n• 可以随时参加俱乐部会议（通常需提前联系）\n• 新会员可以在任何时候正式入会\n• 建议先作为客人参加几次会议，了解俱乐部氛围\n• 入会后可以立即开始参与各种角色和活动\n\n流程：\n1. 联系俱乐部了解会议时间和地点\n2. 作为客人参加1-2次会议\n3. 决定加入后填写申请表格\n4. 缴纳会费并获得会员资格\n5. 开始您的 Toastmasters 学习之旅"
+    question: "Can I join the club anytime?",
+    answer: "Yes! Toastmasters clubs welcome new members year-round:\n\n• You can attend club meetings anytime (usually need to contact in advance)\n• New members can join formally at any time\n• We recommend attending 1-2 meetings as a guest first to get familiar with the club atmosphere\n• After joining, you can immediately start participating in various roles and activities\n\nProcess:\n1. Contact the club to learn about meeting times and locations\n2. Attend 1-2 meetings as a guest\n3. After deciding to join, fill out the application form\n4. Pay membership fees and receive member status\n5. Begin your Toastmasters learning journey"
   },
   {
-    question: "俱乐部有社交活动吗？",
-    answer: "是的！大多数 Toastmasters 俱乐部都会组织各种社交活动：\n\n定期活动：\n• 聚餐和茶话会\n• 节日庆祝活动\n• 会员生日聚会\n• 户外团建活动\n\n特别活动：\n• 演讲比赛和颁奖典礼\n• 新会员欢迎仪式\n• 俱乐部周年庆典\n• 与其他俱乐部的联谊活动\n\n这些活动有助于：\n• 增进会员之间的友谊\n• 放松练习英语口语\n• 了解不同的文化背景\n• 建立专业人脉网络"
+    question: "Does the club have social activities?",
+    answer: "Yes! Most Toastmasters clubs organize various social activities:\n\nRegular activities:\n• Dinners and tea gatherings\n• Holiday celebrations\n• Member birthday parties\n• Outdoor team-building activities\n\nSpecial events:\n• Speaking contests and award ceremonies\n• New member welcome ceremonies\n• Club anniversary celebrations\n• Networking activities with other clubs\n\nThese activities help:\n• Strengthen friendships among members\n• Relax while practicing English\n• Learn about different cultural backgrounds\n• Build a professional network"
   },
   {
-    question: "参加 Toastmasters 能帮助我的职业发展吗？",
-    answer: "绝对可以！Toastmasters 对职业发展有很大帮助：\n\n沟通技能提升：\n• 演讲和表达能力\n• 会议主持和参与\n• 与同事和客户的有效沟通\n• 跨文化交流能力\n\n领导力发展：\n• 项目管理能力\n• 团队协作技能\n• 决策和解决问题能力\n• 激励和指导他人\n\n职场优势：\n• 增强自信心和专业形象\n• 获得国际认可的技能认证\n• 扩展专业人脉网络\n• 提升在工作中的表现和晋升机会"
+    question: "Can Toastmasters help my career development?",
+    answer: "Absolutely! Toastmasters can greatly help your career development:\n\nCommunication skills improvement:\n• Speaking and presentation ability\n• Meeting facilitation and participation\n• Effective communication with colleagues and clients\n• Cross-cultural communication skills\n\nLeadership development:\n• Project management ability\n• Team collaboration skills\n• Decision-making and problem-solving ability\n• Motivating and mentoring others\n\nCareer advantages:\n• Increased confidence and professional image\n• Internationally recognized skill certifications\n• Expanded professional network\n• Enhanced job performance and promotion opportunities"
   },
   {
-    question: "我需要准备什么才能开始？",
-    answer: "开始 Toastmasters 学习之旅非常简单：\n\n必需准备：\n• 积极学习的心态\n• 定期参加会议的时间安排\n• 愿意走出舒适区的勇气\n\n有用但非必需：\n• 基础的英语沟通能力（可以在参与中提升）\n• 笔记本记录学习要点\n• 智能手机或电脑（访问 Pathways 在线资源）\n\n记住：\n• 不需要有演讲经验\n• 不需要完美的英语\n• 不需要特殊的设备或材料\n• 俱乐部会提供所需的指导和支持"
+    question: "What do I need to prepare to get started?",
+    answer: "Getting started with Toastmasters is very simple:\n\nRequired preparation:\n• A positive learning attitude\n• Time to attend meetings regularly\n• Courage to step out of your comfort zone\n\nHelpful but not required:\n• Basic English communication ability (can improve through participation)\n• A notebook to record learning points\n• A smartphone or computer (to access Pathways online resources)\n\nRemember:\n• No speaking experience needed\n• Perfect English is not required\n• No special equipment or materials needed\n• The club will provide the guidance and support you need"
   },
   {
-    question: "如果我很忙，无法经常参加会议怎么办？",
-    answer: "Toastmasters 理解每个人都有不同的时间安排：\n\n灵活的参与方式：\n• 大多数俱乐部每月举行2-4次会议\n• 可以根据自己的时间选择参加\n• 没有强制出勤要求\n• 可以提前安排会议角色\n\n建议：\n• 尽量保持一定的参与频率以获得最佳学习效果\n• 可以选择在线俱乐部（时间更灵活）\n• 与俱乐部沟通您的时间限制\n• 即使偶尔参加也比完全不参加要好\n\n记住：Toastmasters 的目标是帮助您成长，而不是给您增加压力。"
+    question: "What if I'm busy and can't attend meetings frequently?",
+    answer: "Toastmasters understands that everyone has different schedules:\n\nFlexible participation options:\n• Most clubs hold 1-4 meetings per month\n• You can choose to attend based on your schedule (no mandatory attendance)\n• Online meeting options are available (even more flexible timing)\n• You can arrange meeting roles in advance to ensure you can prepare properly\n• Pathways projects can be worked on at your own pace\n\nRecommendations:\n• Try to attend at least once or twice per month for the best learning results\n• Consistency matters more than frequency - regular participation builds habits\n• Communicate your availability to the club so they can plan accordingly\n• Online clubs offer flexible scheduling if in-person isn't convenient\n• Even occasional attendance is valuable - progress, not perfection!\n\nRemember: Toastmasters' goal is to help you grow without adding pressure to your life."
   }
 ];

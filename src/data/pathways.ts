@@ -1,96 +1,96 @@
 export const pathwayPaths = [
   {
     name: "Presentation Mastery",
-    chinese: "演讲精通",
-    description: "专注于提升演讲技能和演示能力",
-    focus: ["演讲技巧", "视觉辅助", "观众互动", "说服力"],
+    chinese: "Presentation Mastery",
+    description: "Perfect for developing presentation skills, visual aids, and audience engagement techniques",
+    focus: ["Speech delivery", "Visual presentations", "Audience engagement", "Persuasive speaking", "Technical presentations"],
     icon: "🎯"
   },
   {
     name: "Leadership Development", 
-    chinese: "领导力发展",
-    description: "培养和提升领导能力",
-    focus: ["团队管理", "决策制定", "冲突解决", "激励他人"],
+    chinese: "Leadership Development",
+    description: "Build core leadership abilities including team management, decision-making, and conflict resolution",
+    focus: ["Team leadership", "Decision making", "Conflict resolution", "Motivating teams", "Strategic thinking"],
     icon: "👑"
   },
   {
     name: "Dynamic Leadership",
-    chinese: "动态领导力",
-    description: "学习适应性强的领导方法",
-    focus: ["变革管理", "创新思维", "团队协作", "项目管理"],
+    chinese: "Dynamic Leadership",
+    description: "Learn adaptive leadership in today's fast-changing environment with innovation and collaboration focus",
+    focus: ["Change management", "Innovative thinking", "Team collaboration", "Project management", "Agile leadership"],
     icon: "⚡"
   },
   {
     name: "Effective Coaching",
-    chinese: "有效辅导",
-    description: "发展指导和辅导他人的技能",
-    focus: ["教练技能", "反馈技巧", "人员发展", "绩效提升"],
+    chinese: "Effective Coaching",
+    description: "Develop one-on-one coaching and mentoring skills to help others reach their potential",
+    focus: ["Coaching skills", "Feedback delivery", "Human development", "Performance improvement", "Mentoring"],
     icon: "🧭"
   },
   {
     name: "Team Collaboration",
-    chinese: "团队协作",
-    description: "提升团队合作和协作能力",
-    focus: ["团队建设", "沟通协调", "共同目标", "集体决策"],
+    chinese: "Team Collaboration",
+    description: "Enhance your ability to work effectively with diverse teams and build strong relationships",
+    focus: ["Team building", "Communication coordination", "Shared goals", "Collective decision-making", "Collaboration culture"],
     icon: "🤝"
   },
   {
     name: "Innovative Planning",
-    chinese: "创新规划",
-    description: "学习创新思维和战略规划",
-    focus: ["创意开发", "战略思考", "项目规划", "创新管理"],
+    chinese: "Innovative Planning",
+    description: "Master creative thinking and strategic planning to drive organizational innovation",
+    focus: ["Creative development", "Strategic thinking", "Project planning", "Innovation management", "Problem-solving"],
     icon: "💡"
   },
   {
     name: "Persuasive Influence",
-    chinese: "说服影响力", 
-    description: "掌握说服和影响他人的技巧",
-    focus: ["影响技巧", "谈判能力", "说服策略", "关系建立"],
+    chinese: "Persuasive Influence", 
+    description: "Learn persuasion techniques, negotiation, and influence strategies for effective leadership",
+    focus: ["Influence skills", "Negotiation ability", "Persuasion strategies", "Relationship building", "Sales communication"],
     icon: "🎭"
   },
   {
     name: "Visionary Communication",
-    chinese: "远见沟通",
-    description: "学习传达愿景和激励他人",
-    focus: ["愿景传达", "鼓舞人心", "战略沟通", "变革领导"],
+    chinese: "Visionary Communication",
+    description: "Learn to communicate compelling vision and inspire others to achieve ambitious goals",
+    focus: ["Vision communication", "Inspiring others", "Strategic communication", "Change leadership", "Future thinking"],
     icon: "🔮"
   },
   {
     name: "Strategic Relationships",
-    chinese: "战略关系",
-    description: "建立和维护重要的人际关系",
-    focus: ["关系建立", "网络拓展", "合作伙伴", "客户关系"],
+    chinese: "Strategic Relationships",
+    description: "Build and maintain important interpersonal relationships and expand your professional network",
+    focus: ["Relationship building", "Network expansion", "Partnerships", "Customer relations", "Stakeholder management"],
     icon: "🌐"
   },
   {
     name: "Engaging Humor",
-    chinese: "幽默表达",
-    description: "学习在沟通中恰当使用幽默",
-    focus: ["幽默技巧", "氛围营造", "娱乐演讲", "轻松表达"],
+    chinese: "Engaging Humor",
+    description: "Learn to effectively use humor to engage audiences, build connections, and make presentations memorable",
+    focus: ["Humor techniques", "Audience engagement", "Entertainment value", "Relaxed communication", "Connection building"],
     icon: "😄"
   }
 ];
 
 export const pathwaysProcess = [
   {
-    step: "选择路径",
+    step: "Choose a Path",
     english: "Choose a Path",
-    description: "根据个人兴趣和发展目标选择合适的学习路径",
-    details: ["评估个人能力", "明确发展方向", "选择适合路径", "制定学习计划"],
+    description: "Select a learning path aligned with your personal and professional development goals",
+    details: ["Assess your current strengths and development areas", "Clarify your short and long-term goals", "Explore all 11 available pathways", "Choose the path that best fits your aspirations"],
     icon: "🛤️"
   },
   {
-    step: "完成项目",
+    step: "Complete Projects", 
     english: "Complete Projects", 
-    description: "按照路径要求完成各个项目，每个项目都有具体目标和演讲任务",
-    details: ["阅读项目资料", "准备演讲内容", "实践演讲技巧", "接受反馈指导"],
+    description: "Work through structured projects, each designed to build specific communication and leadership skills",
+    details: ["Study project learning materials and objectives", "Prepare your speech or presentation content", "Practice and refine your delivery and techniques", "Present to the club and receive valuable feedback"],
     icon: "📝"
   },
   {
-    step: "获得徽章",
+    step: "Earn Badges",
     english: "Earn Badges",
-    description: "完成项目后获得电子徽章，记录学习成就",
-    details: ["项目完成认证", "技能徽章获得", "进度跟踪记录", "成就展示"],
+    description: "Receive digital badges upon project completion, creating a visible record of your skill development",
+    details: ["Earn digital badges for each completed project", "Track your progress through Base Camp", "Showcase your achievements and credentials", "Work toward advanced competency levels"],
     icon: "🏆"
   }
 ];

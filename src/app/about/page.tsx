@@ -10,7 +10,7 @@ export default function About() {
         <div className="bg-white rounded-lg shadow-md p-8">
           <h2 className="text-3xl font-bold text-blue-900 mb-4">Our Mission</h2>
           <p className="text-lg text-gray-700 leading-relaxed italic border-l-4 border-blue-600 pl-4 bg-blue-50 py-4">
-            "We provide our members with a mutually supportive and positive learning environment where they can develop communication and leadership skills, build self-confidence, and achieve personal growth."
+            &ldquo;We provide our members with a mutually supportive and positive learning environment where they can develop communication and leadership skills, build self-confidence, and achieve personal growth.&rdquo;
           </p>
         </div>
 
